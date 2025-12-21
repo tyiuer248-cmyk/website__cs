@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Kanit', sans-serif;
+            background: linear-gradient(135deg, #fff5f5 0%, #ffe4e6 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-md w-full bg-white/80 backdrop-blur-md rounded-3xl shadow-xl overflow-hidden border border-pink-100">
+        
+        <div class="h-32 bg-gradient-to-r from-pink-200 to-orange-100 relative">
+            <div class="absolute -bottom-12 left-1/2 transform -translate-x-1/2">
+                <div class="w-28 h-28 bg-white rounded-full p-1 shadow-lg">
+                    <img src="https://ui-avatars.com/api/?name=Student+Profile&background=fce7f3&color=db2777&size=128" 
+                         alt="Profile Picture" 
+                         class="w-full h-full rounded-full object-cover">
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-16 pb-10 px-8 text-center">
+            <h1 class="text-2xl font-bold text-pink-600 mb-1">
+                ชื่อ-นามสกุล ของคุณ
+            </h1>
+            <p class="text-pink-400 font-medium mb-6">รหัสนักศึกษา: 6XXXXXXX</p>
+
+            <hr class="border-pink-50 mb-6">
+
+            <div class="space-y-4 text-left">
+                <div class="flex items-center space-x-4 bg-pink-50/50 p-3 rounded-xl">
+                    <span class="text-2xl">📚</span>
+                    <div>
+                        <p class="text-xs text-pink-400">สาขาวิชา</p>
+                        <p class="text-gray-700 font-medium">วิทยาการคอมพิวเตอร์</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-4 bg-orange-50/50 p-3 rounded-xl">
+                    <span class="text-2xl">🏫</span>
+                    <div>
+                        <p class="text-xs text-orange-400">คณะ</p>
+                        <p class="text-gray-700 font-medium">วิทยาศาสตร์และเทคโนโลยี</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-4 bg-rose-50/50 p-3 rounded-xl">
+                    <span class="text-2xl">🎓</span>
+                    <div>
+                        <p class="text-xs text-rose-400">มหาวิทยาลัย</p>
+                        <p class="text-gray-700 font-medium">มหาวิทยาลัยเทคโนโลยีชื่อดัง</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="mt-8 w-full bg-pink-400 hover:bg-pink-500 text-white font-medium py-3 rounded-2xl transition duration-300 shadow-md shadow-pink-200">
+                ส่งข้อความหาฉัน ✨
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
